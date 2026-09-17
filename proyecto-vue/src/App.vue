@@ -58,6 +58,8 @@ const completedTasks = computed(() => tasks.value.filter(t => t.completed).lengt
       <button type="submit" class="btn btn-add">Agregar</button>
     </form>
 
+    <p> DESDE RAMA:feat/seg-funcion  ioasjfdisjfiajokdsaoidjaoisjdaiosjdaiosjdoa</p> 
+
     <!-- Resumen y estadísticas de tareas -->
     <div class="stats-bar">
       <span><strong>Total de tareas:</strong> {{ totalTasks }}</span>
