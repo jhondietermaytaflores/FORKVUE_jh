@@ -62,6 +62,9 @@ const completedTasks = computed(() => tasks.value.filter(t => t.completed).lengt
       <span><strong>Completadas:</strong> {{ completedTasks }} de {{ totalTasks }}</span>
     </div>
 
+    <p>1ra
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab eveniet pariatur explicabo repellat sit ex ad, in inventore blanditiis quas, nisi fugit sint facilis adipisci illum magnam aliquid! Molestiae?</p>
+
     <!-- Mensaje cuando la lista de tareas está vacía -->
     <div v-if="tasks.length === 0" class="empty-message">
       <p>No hay tareas registradas. ¡Agrega la primera!</p>
