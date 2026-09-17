@@ -44,6 +44,8 @@ const completedTasks = computed(() => tasks.value.filter(t => t.completed).lengt
     <header class="header">
       <h1>Sistema de Gestión de Tareas</h1>
     </header>
+    
+    <h1> Desarrollado por Jhon D. Mayta Flores</h1>
 
     <!-- Formulario para agregar una nueva tarea -->
     <form @submit.prevent="addTask" class="task-form">
